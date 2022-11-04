@@ -1,13 +1,14 @@
-.allProducts {
+.all-products {
   background-color: #EDF1EF;
   font-family: "Noto Sans" ;
 }
 
-h1 {
+.all-products-title {
   font-family: "Oswald";
   margin-bottom: 50px;
 }
-.cardPokemon {
+
+.card-pokemon {
   width: 45%;
   border-color: #2A4F3F;
   border-width: 2px;
@@ -23,17 +24,17 @@ h1 {
   margin-bottom: 2px;
 }
 
-.btn {
+.btn-card {
 background-color: #2A4F3F;
 border-color : #2A4F3F;
 }
 
-.form-floating {
+.sort-by {
   margin-left: 1%;
   margin-bottom: 10px;
 }
 
-.form-select {
+.select-sort {
   width: 45%;
   border-color: #2A4F3F;
   border-width: 1px;
@@ -45,19 +46,19 @@ border-color : #2A4F3F;
 }
 
 @media screen and (min-width : 769px) {
-  .cardPokemon {
+  .card-pokemon {
     width : 20%;
   } 
 
-  .form-select {
+  .select-sort {
   width: 15%;
   }
 
-  .cardPokemon {
+  .card-pokemon {
     margin: 1%;
   }
 
-  .form-floating {
+  .sort-by {
     margin-left: 6%;
   }
 }
