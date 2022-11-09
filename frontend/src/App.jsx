@@ -1,5 +1,4 @@
-import React,{ useState } from "react";
-
+import React, { useState } from "react";
 
 import AllProducts from "@pages/AllProducts";
 import Basket from "@pages/Basket";
@@ -14,7 +13,6 @@ import pokemons from "./services/pokemons";
 import "./App.css";
 
 function App() {
-
   const [page, setPage] = useState({ path: "Home", index: null });
   const [id, setId] = React.useState(0);
 
@@ -42,7 +40,7 @@ function App() {
         id={id}
         setId={setId}
       />
-      {page.path === "Contact" ? <Footer /> : ""}
+      <Footer />
     </div>
   );
 }
