@@ -9,21 +9,31 @@ import PictoF from "../assets/facebook.png";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div>
-        <div className="">
-          <div className="d-flex justify-content-end m-2">
-            <h1 className="">Partner site </h1>
+      <div className="container p-1 border-top">
+        <div className="container text-center">
+          <div className="footer-lien row">
+            <div className="col-6 col-sm-4 p-0">
+              <p>General conditions of sale</p>
+              <p>Privacy Policy</p>
+              <p>Cookie settings</p>
+              <p>Legal Notice</p>
+            </div>
+            <div className="col-6 col-sm-4 p-0">
+              <h1 className="fs-4 mb-3">Partner site</h1>
+              <p>Lien 1</p>
+              <p>Lien 2</p>
+              <p>Lien 3</p>
+            </div>
           </div>
-          <div className="d-flex justify-content-center m-3">
-            <img src={PictoT} className="picto-rs m-2" alt="picto" />
-            <img src={PictoI} className="picto-rs m-2" alt="picto" />
-            <img src={PictoF} className="picto-rs m-2" alt="picto" />
-          </div>
-
-          <div className="text-center">
-            © 2022 Copyright:
-            <p className="text-reset fw-bold">Approuved by Professor Chen</p>
-          </div>
+        </div>
+        <div className="d-flex justify-content-center m-3">
+          <img src={PictoT} className="picto-rs m-2" alt="picto" />
+          <img src={PictoI} className="picto-rs m-2" alt="picto" />
+          <img src={PictoF} className="picto-rs m-2" alt="picto" />
+        </div>
+        <div className="text-center">
+          © 2022 Copyright:
+          <p className="text-reset fw-bold">Approuved by Professor Chen</p>
         </div>
       </div>
     </footer>

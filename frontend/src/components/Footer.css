@@ -1,3 +1,16 @@
 .picto-rs {
   width: 40px;
 }
+
+.footer {
+  background-color: #edf1ef;
+}
+
+@media (min-width: 768px) {
+  .footer-lien {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+}
