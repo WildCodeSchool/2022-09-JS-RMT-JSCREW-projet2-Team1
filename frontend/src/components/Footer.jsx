@@ -11,14 +11,14 @@ export default function Footer() {
     <footer className="footer">
       <div className="container p-1 border-top">
         <div className="container text-center">
-          <div className="footer-lien row">
-            <div className="col-6 col-sm-4 p-0">
+          <div className="footer-lien row mt-3">
+            <div className="footer-condition col-6 col-sm-4 p-0">
               <p>General conditions of sale</p>
               <p>Privacy Policy</p>
               <p>Cookie settings</p>
               <p>Legal Notice</p>
             </div>
-            <div className="col-6 col-sm-4 p-0">
+            <div className="partner-lien col-6 col-sm-4 p-0">
               <h1 className="fs-4 mb-3">Partner site</h1>
               <p>Lien 1</p>
               <p>Lien 2</p>
