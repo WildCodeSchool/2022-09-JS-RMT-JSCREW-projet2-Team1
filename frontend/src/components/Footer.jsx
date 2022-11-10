@@ -9,9 +9,9 @@ import PictoF from "../assets/facebook.png";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="container p-1 border-top">
+      <div className="container w-100 p-1 border-top">
         <div className="container text-center">
-          <div className="footer-lien row mt-3">
+          <div className="footer-lien row mt-5">
             <div className="footer-condition col-6 col-sm-4 p-0">
               <p>General conditions of sale</p>
               <p>Privacy Policy</p>
