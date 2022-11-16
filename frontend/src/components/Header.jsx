@@ -54,7 +54,7 @@ export default function Header({ setPage, search, handleSearch }) {
             onClick={() => setPage({ path: "Basket", index: null })}
           >
             <img src={Panier} className="basket img-fluid" alt="panier" />
-            <p className="d-none d-md-block m-0">Cart</p>
+            <p className="basket-label d-none d-md-block m-0">Cart</p>
           </button>
         </div>
       </div>

@@ -4,24 +4,24 @@ export default function NavbarWindow({ setPage }) {
       <div className="d-flex flex-column flex-md-row">
         <button
           type="button"
-          className="p-2 flex-fill border-0"
+          className="button-nav p-2 flex-fill border-0"
           onClick={() => setPage({ path: "Home", index: null })}
         >
-          Home
+          HOME
         </button>
         <button
           type="button"
-          className="p-2 flex-fill border-0"
+          className="button-nav p-2 flex-fill border-0"
           onClick={() => setPage({ path: "Products", index: null })}
         >
-          Products
+          ALL PRODUCTS
         </button>
         <button
           type="button"
-          className="p-2 flex-fill border-0"
+          className="button-nav p-2 flex-fill border-0"
           onClick={() => setPage({ path: "Contact", index: null })}
         >
-          Contact
+          CONTACT
         </button>
       </div>
     </nav>
