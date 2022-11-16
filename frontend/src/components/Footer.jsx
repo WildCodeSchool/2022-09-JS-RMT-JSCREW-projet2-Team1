@@ -1,5 +1,5 @@
 import React from "react";
-
+import Form from "./Form";
 import "./Footer.css";
 
 import PictoT from "../assets/twitter.png";
@@ -9,6 +9,7 @@ import PictoF from "../assets/facebook.png";
 export default function Footer() {
   return (
     <footer className="footer">
+     <Form />
       <div className="container w-100 p-1 border-top">
         <div className="container text-center">
           <div className="footer-lien row mt-5">
