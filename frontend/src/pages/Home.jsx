@@ -7,7 +7,7 @@ import "../Home.css";
 
 function Home() {
   const [randomData, setRandomData] = useState([]);
-  const [random1Data, setRandom1Data] = useState([])
+  const [random1Data, setRandom1Data] = useState([]);
 
   useEffect(() => {
     fetch(`${import.meta.env.VITE_BACKEND_URL}/rand`)
@@ -49,7 +49,8 @@ function Home() {
                 </h5>
               </div>
               <div className="buttonNews d-flex justify-content-center h-25 p-2">
-                <Link to={`/products/${random1Data && random1Data.index}`}
+                <Link
+                  to={`/products/${random1Data && random1Data.index}`}
                   className="bNews
                 btn btn-success rounded
                 align-self-end"
@@ -72,7 +73,8 @@ function Home() {
                 </h5>
               </div>
               <div className="buttonNews d-flex justify-content-center h-25 p-2">
-                <Link to={`/products/${random1Data && random1Data.index}`}
+                <Link
+                  to={`/products/${random1Data && random1Data.index}`}
                   className="bNews
                 btn btn-success rounded
                 align-self-end"
@@ -95,7 +97,8 @@ function Home() {
                   The magic of Christmas with a new friend !
                 </h4>
                 <div className="buttonNews d-flex justify-content-center mb-2">
-                  <Link to={`/products/${random1Data && random1Data.index}`}
+                  <Link
+                    to={`/products/${random1Data && random1Data.index}`}
                     className="bNews
                 btn btn-success rounded
                 align-self-end"
