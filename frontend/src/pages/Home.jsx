@@ -51,7 +51,6 @@ function Home() {
               <div className="buttonNews d-flex justify-content-center h-25 p-2">
                 <HashLink
                   to={`/products/${random1Data && random1Data.index}#`}
-
                   className="bNews
                 btn btn-success rounded
                 align-self-end"
@@ -74,10 +73,8 @@ function Home() {
                 </h5>
               </div>
               <div className="buttonNews d-flex justify-content-center h-25 p-2">
-
                 <HashLink
                   to={`/products/${random1Data && random1Data.index}#`}
-
                   className="bNews
                 btn btn-success rounded
                 align-self-end"
@@ -100,10 +97,8 @@ function Home() {
                   The magic of Christmas with a new friend !
                 </h4>
                 <div className="buttonNews d-flex justify-content-center mb-2">
-
                   <HashLink
                     to={`/products/${random1Data && random1Data.index}#`}
-
                     className="bNews
                 btn btn-success rounded
                 align-self-end"
