@@ -83,7 +83,7 @@ function Basket({
                   type="button"
                   className="valide-basket btn btn-success btn-lg mb-2"
                 >
-                  Validate my order
+                  Confirm my order
                 </button>
               </div>
             </div>
@@ -149,7 +149,7 @@ function Basket({
                 type="button"
                 className="btn-valide-mobile btn btn-success btn-lg"
               >
-                Validate my order
+                Confirm my order
               </button>
             </div>
           </div>

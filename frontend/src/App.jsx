@@ -58,6 +58,7 @@ function App() {
               panier={panier}
               handleDeletPanier={handleDeletPanier}
               handlePanierQuantity={handlePanierQuantity}
+              setPanier={setPanier}
             />
           }
         />
