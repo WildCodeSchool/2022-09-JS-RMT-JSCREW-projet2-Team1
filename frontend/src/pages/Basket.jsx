@@ -49,7 +49,9 @@ function Basket({
         <div className="basket-dekstop row">
           <div className="col-md-8 md-w-75">
             {panier.length === 0 ? (
-              <p className="text-center">Your cart is empty.</p>
+              <p className="d-flex justify-content-center fs-3">
+                Your cart is empty
+              </p>
             ) : (
               panier.map((pokemon) => (
                 <Basketcard
